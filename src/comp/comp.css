@@ -1,0 +1,215 @@
+.form{
+	background: #f8f8f8;
+}
+.form_bg{
+	background: #fff;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px -7px #4245a8;
+}
+.form_heading{
+	padding: 1rem;
+	border-bottom: 2px solid #ccc;
+}
+.form_heading>h2{
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 600;
+	color: #555;
+}
+.form_input_grid{
+	 display: grid;
+  	 grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+}
+
+.input_row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.input_col{
+	display: flex;
+	flex-direction: column;
+	
+}
+.form_input_comp{
+	padding: 5px 5px; 
+}
+
+
+.form_input_comp>label{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.MuiSvgIcon-root{
+	margin-left:10px;
+}
+
+.form_input_comp>label{
+	font-size: 0.75rem;
+	font-weight:500;
+	color: #666;
+	margin-right: 16px;
+
+}
+.form_input_comp>h4{
+	font-size: 0.7rem;
+	font-weight: 600;
+	color: #000;
+}
+.form_input_comp>input{
+	border-radius: 5px;
+	padding: 6px 9px;
+	width: 70%;
+	outline: 0;
+	border: 1px solid #ccc;
+	font-size: 0.7rem;
+	margin-top:5px;
+}
+.form_input_comp>select{
+	border-radius: 5px;
+	padding: 6px 9px;
+	width: 70%;
+	outline: 0;
+	border: 1px solid #ccc;
+	font-size: 0.7rem;
+	margin-top:5px;
+}
+.form_input_comp>textarea{
+	border-radius: 5px;
+	padding: 6px 9px;
+	outline: 0;
+	border: 1px solid #ccc;
+	font-size: 0.7rem;
+	margin-top:5px;
+	font-family: 'Montserrat', sans-serif;
+}
+.form_input_comp>label>mark{
+	background: transparent;
+	color: #f03;
+	margin-right: 1rem;
+}
+
+.radio_row{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	align-items: center;
+	font-size: 0.7rem;
+}
+.radio_row>p{
+	margin-left: 16px;
+	margin-top: 5px;
+}
+
+
+.radio_grid{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.form_submit{
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
+}
+.form_submit>button{
+	padding:10px 12px;
+	cursor: pointer;
+	margin-left: 1rem;
+	outline: 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.cancel_button{
+	background: #fff;
+	color: #4245a8;
+}
+.submit_button{
+	background: #4245a8;
+	color: #fff;
+}
+
+.cancel_button:hover{
+	background: #4245a8;
+	color: #fff;
+}
+.submit_button:hover{
+	
+	background: #fff;
+	color: #4245a8;
+}
+.upload{
+	display: none;
+}
+.std_case{
+	text-transform:none;
+}
+
+
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 12px;
+  background-color: #4245a8;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.file-input__label svg {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+
+
+/************parts_data_comp *********/
+
+.parts_data_comp{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+	background: #fff;
+	padding:16px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.parts_data_list{
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+.row_part>p:nth-child(2){
+	font-size: 0.7rem;
+}
+.row_part>p:nth-child(1){
+	font-size: 0.7rem;
+	font-weight: bold;
+
+}
+
+.row_part>img{
+	width: 50px;
+	height: 50px;
+}
