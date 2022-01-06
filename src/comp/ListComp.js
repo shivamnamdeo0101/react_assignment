@@ -3,7 +3,7 @@ import firebase from "../base";
 import "./comp.css";
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
-
+import moment from "moment";
 
 function ListComp() {
 
@@ -95,7 +95,7 @@ function ListComp() {
 							</div>
 							<div className="row_part">
 								<p>Timestamp</p>
-								<p>{item.timestamp}</p>
+								<p>{moment(item.timestamp).fromNow()}</p>
 							</div>
 							
 							
